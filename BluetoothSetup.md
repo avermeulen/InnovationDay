@@ -23,12 +23,25 @@ We want to connect to the bluetooth device via a serial interface - for this we 
 
 The following commands have to be executed as the root user, or by using "sudo".
 
-Run "hcitool scan", and make a note of the address of the correct bluetooth device.
-Run "rfcomm 0 bind xxxxx", replacing the xxxxx with the address of the bluetooth device.
+Run:
+	
+	"hcitool scan"
 
-Check that the "/dev/rfcomm0" file has been created.
+Make a note of the address of the correct bluetooth device.
 
-The "fundamo" user have been created with the correct groups to access this device, but if for some reason you have a permission problem you can run (as root) "chmod 666 /dev/rfcomm0".
+Run: 
+	
+	"rfcomm 0 bind xxxxx"
+
+replacing the xxxxx with the address of the bluetooth device.
+
+Check that the "/dev/rfcomm0" file has been created. (Using ls /dev/rfcomm0)
+
+
+
+The "fundamo" user has been created with the correct groups to access this device, but if for some reason you have a permission problem you can run (as root) 
+	
+	"chmod 666 /dev/rfcomm0".
 
 
 ## Battery power
