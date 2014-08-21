@@ -15,6 +15,8 @@ You will use:
 	* npm - the Node Package Manager
 	* git
 	* github.com
+	* An Arduino micro-controller
+	* Breadboard, Jumper Cables and various electronic components
 	* Fritzing	
 
 ##Backgound
@@ -23,7 +25,17 @@ We will be building a Nodebot that is a robot powered by Javascript, we will be 
 
 ##Setup
 
+Each team will be supplied with a bluetooth enabled laptop that needs to be configured.
+
 ##Getting to know Johnny
+
+The first step in building a Nodebot is to get to know Johnny-Five for that we will you thse
+
+node-workshop node module and the http://www.node-ardx.org website.
+
+*** Using node-workdhop
+
+To install the node-workhop utility 
 
 ##VisaBot build
 
