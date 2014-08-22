@@ -20,6 +20,10 @@ Attaching the little yellow motors are slightly different. You need four cable t
 
 Attach the BallCaster wheel under your VisaBot. The one in your kit is red.
 
+![Visabot setup](./images/Wheel.jpg)
+
+Attach the little cross attachment from the Small servos to the wheels. Put the strips of bicycle tube over the wheels to ensure grip.
+
 ![Visabot setup](./images/Bot3.jpg)
 
 Add the Arduino - you might want to bolt the Arduino onto the base plate. Bolts available on request

@@ -46,7 +46,6 @@ To install the node-workshop utility run:
 	npm install nodebot-workshop 
 
 
-
 ##VisaBot build
 
 [See the build steps](./VisaBotBuild.md)
@@ -59,11 +58,15 @@ Build the Motor Driver by following these [instructions](./MotorDriver.md)
 
 Create a Basic wheel class that can make a wheel go forward, reverse and stop.
 
-Tip: use the Pin to set the pins of the Driver Motor high and low.
+Tip: 
+	Use the Pin class to set the pins of the Driver Motor high and low to move the wheels in the appropriate directions.
+
+https://github.com/rwaldron/johnny-five/wiki/Pin
+
 
 Create a VisaBot class - that has 2 wheel class instances. Your visa bot should be able to go forward, to reverse and to turn left and right.
 
-## Challenge 1
+##Challenge 1
 
 Control your Visabot from the keyboard. Using the up, down, left and right keys. Feel free to innovate and add more moves for your bot.
 
@@ -86,6 +89,8 @@ Tip: use the temporal module to control your bots movements
 Add eyes to you robot by using these [instructions](./UltraSonicSupport.md)
 
 ##Challange 3
+
+
 
 
 
