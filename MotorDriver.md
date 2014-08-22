@@ -1,19 +1,19 @@
 # Motor Driver
 
-We are using a H-Bridge chip to drive the motors of the Visabot.
+We are using a L293D Dual H-Bridge chip to drive the motors of the Visabot.
 
 You will need to wire the supplied chip up on the mini breadboard.
-
 
 For some background information you can watch this video: https://www.youtube.com/watch?v=5nDaHJqruq0
 
 ##Before:
 
-[Motor Driver Setup ](./images/MotorDriverBefore.jpg)
+![Motor Driver Setup before](./images/MotorDriverBefore.jpg)
 
 ##After:
 
-[Motor Driver Setup ](./images/MotorDriverAfter.jpg)
+![Motor Driver Setup after](./images/MotorDriverAfter.jpg)
 
-![Hbridge Motor Driver setup](./images/HBridgeSetup_bb.png
-)
+##H-Bridge Setup schematic
+
+![Hbridge Motor Driver setup](./images/HBridgeSetup_bb.png)

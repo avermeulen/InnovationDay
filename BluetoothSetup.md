@@ -35,9 +35,10 @@ Run:
 
 replacing the xxxxx with the address of the bluetooth device.
 
-Check that the "/dev/rfcomm0" file has been created. (Using ls /dev/rfcomm0)
-
-
+Check that the "/dev/rfcomm0" file has been created. 
+Using:
+	
+	ls -al /dev/rfcomm0
 
 The "fundamo" user has been created with the correct groups to access this device, but if for some reason you have a permission problem you can run (as root) 
 	
@@ -47,6 +48,7 @@ The "fundamo" user has been created with the correct groups to access this devic
 ## Battery power
 
 Use 9V battery.
+
 Build the battery clip.
 
 ## Changing your code

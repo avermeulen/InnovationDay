@@ -24,7 +24,7 @@ You will use:
 We will be building a Nodebot that is a robot powered by Javascript, we will be using Node JS to program an Arduino micro-controller. The Node module we will be using is called johnny-five, this needs the Firmata sketch to be installed on the Arduino
 
 ##Setup
-
+ 
 Each team will be supplied with a bluetooth enabled laptop that needs to be configured.
 
 ##Getting to know Johnny
@@ -39,11 +39,45 @@ To install the node-workhop utility
 
 ##VisaBot build
 
+[See the build steps](./VisaBotBuild.md)
+
 ##Motor Driver
+
+Build the Motor Driver by following these [instructions](./MotorDriver.md)
+
+##Visabot software
+
+Create a Basic wheel class that can make a wheel go forward, reverse and stop.
+
+Tip: use the Pin to set the pins of the Driver Motor high and low.
+
+Create a VisaBot class - that has 2 wheel class instances. Your visa bot should be able to go forward, to reverse and to turn left and right.
+
+## Challenge 1
+
+Control your Visabot from the keyboard. Using the up, down, left and right keys. Feel free to innovate and add more moves for your bot.
+
+Tip: the keypress node library.
+	
+	npm install keypress
 
 ##Bluetooth support
 
+Make your Visabot wireless by following these [instructions](./BluetoothSetup.md)
+
+## Challenge 2
+
+Now that your Visabot have no wires to get tangled in lets get it to navigate its way around some cones 1 meter x 1 meter apart. First in a clockwise direction. If you are brave let it automatically turn around and come back again in a clockwise direction around the cones.
+
+Tip: use the temporal module to control your bots movements
+
 ##A seeing bot
 
-##Challanges
+Add eyes to you robot by using these [instructions](./UltraSonicSupport.md)
+
+##Challange 3
+
+
+
+
 
