@@ -45,7 +45,8 @@ Install nodebot-workshop:
 
 ###Install Firmata
 
-You will need to install firmata on your Arduino using the Arduino IDE, install the supplied Firmata version. The one under sketches.
+You will need to install firmata on your Arduino using the Arduino IDE, see the [instructions](./Johnny5Intro.md)
+
 
 ### Git setup
 

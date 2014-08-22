@@ -10,13 +10,12 @@ One of the first things you need to do is to ensure that your Arduino have Firma
 
 Be sure that your Arduino have firmata installed on it.
 
-In the Arduino IDE click, 
+In the Arduino IDE click,
+
 	* File, the Open... 
 	* Navigate to sketches, 
 	* Then select StandardFirmata_ping.ino. 
 	* Click open.
-
-
 
 ##Tutorials
 
