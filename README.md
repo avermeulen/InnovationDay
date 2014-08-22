@@ -27,15 +27,25 @@ We will be building a Nodebot that is a robot powered by Javascript, we will be 
  
 Each team will be supplied with a bluetooth enabled laptop that needs to be configured.
 
+Install the Arduino IDE from here: http://arduino.cc/en/main/software
+
+###Install Firmata
+
+You will need to install firmata on your Arduino using the Arduino IDE, install the supplied Firmata version. The one under sketches.
+
+### Git setup
+
+Clone the git project, and create a folder for your team under the teams folder.
+
 ##Getting to know Johnny
 
-The first step in building a Nodebot is to get to know Johnny-Five for that we will you thse
+The first step in building a Nodebot is to get to know Johnny-Five for that we will use the node-workshop node module and the http://www.node-ardx.org website.
 
-node-workshop node module and the http://www.node-ardx.org website.
+To install the node-workshop utility run:
+	
+	npm install nodebot-workshop 
 
-*** Using node-workdhop
 
-To install the node-workhop utility 
 
 ##VisaBot build
 
