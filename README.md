@@ -32,9 +32,7 @@ You need to install Node JS, NPM and GIT, using this command:
 
 Download the Arduino IDE from here: http://arduino.cc/en/main/software and unzip it into a folder of your choice.
 
-Create a nodebotsday folder, in this folder
-
-Now you need to install johnny-five and keypress
+Create a nodebotsday folder, in this folder you need to install johnny-five and keypress
 
 	npm install keypress
 	npm install johnny-five
@@ -43,14 +41,18 @@ Install nodebot-workshop:
 	
 	sudo npm install -g nodebot-workshop
 
-###Install Firmata
-
-You will need to install firmata on your Arduino using the Arduino IDE, see the [instructions](./Johnny5Intro.md)
-
-
 ### Git setup
 
 Clone the git project, and create a folder for your team under the teams folder.
+
+Now do a git clone:
+	
+	git clone https://github.com/avermeulen/InnovationDay
+
+
+###Install Firmata
+
+You will need to install firmata on your Arduino using the Arduino IDE, see the [instructions](./Johnny5Intro.md)
 
 ##Getting to know Johnny
 
