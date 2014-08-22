@@ -28,7 +28,7 @@ Learn more about pins here:
 
 https://github.com/rwaldron/johnny-five/wiki/Pin
 
-You can use analog pins to control the speed of your bot.
+You can use analog write (PWM pins) to control the speed of your bot.
 
 You can also use the motor class.
 

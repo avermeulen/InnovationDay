@@ -49,7 +49,7 @@ The "fundamo" user has been created with the correct groups to access this devic
 
 Use 9V battery.
 
-Build the battery clip.
+See here how to make the battery clip: http://playground.arduino.cc/Learning/9VBatteryAdapter.
 
 ## Changing your code
 

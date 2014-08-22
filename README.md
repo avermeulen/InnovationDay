@@ -1,6 +1,5 @@
 #Visa Innovation Day - 22 August 2014
 
-
 ##Welcome
 
 Welcome to the Visa Innovation day.
@@ -80,7 +79,7 @@ Make your Visabot wireless by following these [instructions](./BluetoothSetup.md
 
 ## Challenge 2
 
-Now that your Visabot have no wires to get tangled in lets get it to navigate its way around some cones 1 meter x 1 meter apart. First in a clockwise direction. If you are brave let it automatically turn around and come back again in a clockwise direction around the cones.
+Now that your Visabot has no wires to get tangled in lets get it to navigate its way around some cones 1 meter x 1 meter apart. First in a clockwise direction. If you are brave let it automatically turn around and come back again in a clockwise direction around the cones.
 
 Tip: use the temporal module to control your bots movements
 
@@ -88,7 +87,17 @@ Tip: use the temporal module to control your bots movements
 
 Add eyes to you robot by using these [instructions](./UltraSonicSupport.md)
 
-##Challange 3
+## Challange 3
+
+We will put your bot in a tight spot and it needs to navigate its way out of an corner.
+
+##Challenge 4
+	
+Navigate out of a maze. You bot should be able to find the exit.
+
+##Challenge 5
+
+Find all the cones on a court with 5 cones.
 
 
 
