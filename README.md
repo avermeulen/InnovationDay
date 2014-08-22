@@ -26,7 +26,22 @@ We will be building a Nodebot that is a robot powered by Javascript, we will be 
  
 Each team will be supplied with a bluetooth enabled laptop that needs to be configured.
 
-Install the Arduino IDE from here: http://arduino.cc/en/main/software
+You need to install Node JS, NPM and GIT, using this command:
+
+	yum install git nodejs npm
+
+Download the Arduino IDE from here: http://arduino.cc/en/main/software and unzip it into a folder of your choice.
+
+Create a nodebotsday folder, in this folder
+
+Now you need to install johnny-five and keypress
+
+	npm install keypress
+	npm install johnny-five
+
+Install nodebot-workshop:
+	
+	sudo npm install -g nodebot-workshop
 
 ###Install Firmata
 
