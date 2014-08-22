@@ -62,6 +62,21 @@ To install the node-workshop utility run:
 	
 	npm install nodebot-workshop 
 
+## Johnny-five tutorials
+
+To get familiar with johnny-five complete these tutorials:
+
+http://node-ardx.org/exercises/1
+
+http://node-ardx.org/exercises/4
+
+http://node-ardx.org/exercises/7
+
+Use the nodebot-workshop utility (https://www.npmjs.org/package/nodebot-workshop) to run your code without having the Arduino connected to your PC. 
+
+Once you are happy with your code run it on the Arduino with the correct Breadboard setup.
+
+
 ##VisaBot build
 
 [See the build steps](./VisaBotBuild.md)
@@ -74,7 +89,7 @@ Build the Motor Driver by following these [instructions](./MotorDriver.md)
 
 Create a Basic wheel class that can make a wheel go forward, reverse and stop.
 
-Here's 
+Here's a skeleton to get you going:
 
 ```
 var Wheel = function(pinNr1, pinNr2){
@@ -101,14 +116,47 @@ Tip:
 
 https://github.com/rwaldron/johnny-five/wiki/Pin
 
-
 Create a VisaBot class - that has 2 wheel class instances. Your visa bot should be able to go forward, to reverse and to turn left and right.
+
+Here's the skeleton:
+
+```
+var Visabot = function(rightWheel, leftWheel){
+  
+  this.turnLeft = function(){
+    //logic here
+  }
+
+  this.turnRight = function(){
+  	    //logic here
+
+  }
+
+  this.forward = function(){
+	    //logic here    
+  }
+
+  this.reverse = function(){
+        //logic here
+  }
+
+  this.stop = function(){
+        //logic here
+  }
+}
+```
+
+Now use is something like this:
+
+```
+	var visaBot = new Visabot(new Wheel(), new Wheel());
+```
 
 ##Challenge 1
 
 Control your Visabot from the keyboard. Using the up, down, left and right keys. Feel free to innovate and add more moves for your bot.
 
-Tip: the keypress node library.
+Tip: the keypress node library. https://www.npmjs.org/package/keypress
 	
 	npm install keypress
 
