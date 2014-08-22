@@ -56,12 +56,11 @@ You will need to install firmata on your Arduino using the Arduino IDE, see the 
 
 ##Getting to know Johnny
 
-The first step in building a Nodebot is to get to know Johnny-Five for that we will use the node-workshop node module and the http://www.node-ardx.org website.
+The first step in building a Nodebot is to get to know Johnny-Five for that we will use the node-workshop node module and the http://node-ardx.org website.
 
 To install the node-workshop utility run:
 	
 	npm install nodebot-workshop 
-
 
 ##VisaBot build
 
@@ -74,6 +73,28 @@ Build the Motor Driver by following these [instructions](./MotorDriver.md)
 ##Visabot software
 
 Create a Basic wheel class that can make a wheel go forward, reverse and stop.
+
+Here's 
+
+```
+var Wheel = function(pinNr1, pinNr2){
+    var pin1 =  new five.Pin(pinNr1),
+        pin2 = new five.Pin(pinNr2);
+
+    this.stop = function(){
+      // pin logic here
+    }
+
+    this.forward = function(){
+      // pin logic here
+    }
+
+    this.reverse = function(){
+      // pin logic here
+    }
+
+  };
+```
 
 Tip: 
 	Use the Pin class to set the pins of the Driver Motor high and low to move the wheels in the appropriate directions.
