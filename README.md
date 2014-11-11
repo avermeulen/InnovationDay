@@ -76,7 +76,7 @@ Use the nodebot-workshop utility (https://www.npmjs.org/package/nodebot-workshop
 
 Once you are happy with your code run it on the Arduino with the correct Breadboard setup.
 
-
+	
 ##VisaBot build
 
 [See the build steps](./VisaBotBuild.md)
