@@ -16,7 +16,7 @@ For some background information you can watch this video: https://www.youtube.co
 
 ##After:
 
-The black dot should be under the two wires on this picture.
+The black dot should be under the two wires on this picture, that bridge the left and right sides of the breadboard.
 
 ![Motor Driver Setup after](./images/MotorDriverBefore.jpg)
 
