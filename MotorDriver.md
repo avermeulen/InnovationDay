@@ -6,6 +6,8 @@ We are using a L293D Dual H-Bridge chip to drive the motors of the Visabot.
 
 You will need to wire the supplied chip up on the mini breadboard. Wires are supplied.
 
+I marked the top of the breadboard with a black dot. 
+
 For some background information you can watch this video: https://www.youtube.com/watch?v=5nDaHJqruq0
 
 ##Before:
@@ -13,6 +15,8 @@ For some background information you can watch this video: https://www.youtube.co
 ![Motor Driver Setup before](./images/MotorDriverAfter.jpg)
 
 ##After:
+
+The black dot should be under the two wires on this picture.
 
 ![Motor Driver Setup after](./images/MotorDriverBefore.jpg)
 
